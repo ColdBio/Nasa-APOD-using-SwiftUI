@@ -1,4 +1,6 @@
 # Nasa-APOD-in-SwiftUI
+<img width="736" alt="Screenshot 2020-09-07 at 20 27 44" src="https://user-images.githubusercontent.com/64978825/92616363-09c38680-f2b6-11ea-870f-9cdf4c86641a.jpg">
+
 🚀 This simple app shows NASA's astronomy picture of the day using SwiftUI 🛰
 
 # Demo
@@ -7,3 +9,4 @@
 # Credit
 - Data courtesy of [NASA](https://api.nasa.gov) 🛰
 - Thanks to [Kingsfisher](https://github.com/onevcat/Kingfisher) for its powerful web image downloading and caching 🐟
+
