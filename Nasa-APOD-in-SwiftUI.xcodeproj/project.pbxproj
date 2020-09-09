@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9D47BA02509651800980D5F /* APODController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D47B9F2509651800980D5F /* APODController.swift */; };
 		E9D94F6725090E4800918465 /* Nasa_APOD_in_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D94F6625090E4800918465 /* Nasa_APOD_in_SwiftUIApp.swift */; };
 		E9D94F6925090E4800918465 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D94F6825090E4800918465 /* ContentView.swift */; };
 		E9D94F6B25090E4A00918465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D94F6A25090E4A00918465 /* Assets.xcassets */; };
 		E9D94F6E25090E4A00918465 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D94F6D25090E4A00918465 /* Preview Assets.xcassets */; };
 		E9D94F7625090E5F00918465 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D94F7525090E5F00918465 /* DataModel.swift */; };
-		E9D94F7825090E6B00918465 /* APODController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D94F7725090E6B00918465 /* APODController.swift */; };
 		E9D94F7A25090E7D00918465 /* APODView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D94F7925090E7D00918465 /* APODView.swift */; };
 		E9D94F932509136F00918465 /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E9D94F922509136F00918465 /* KingfisherSwiftUI */; };
 		E9D94F9525091B6200918465 /* ImageDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D94F9425091B6200918465 /* ImageDescriptionView.swift */; };
@@ -32,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E9D47B9F2509651800980D5F /* APODController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODController.swift; sourceTree = "<group>"; };
 		E9D94F6325090E4800918465 /* Nasa-APOD-in-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nasa-APOD-in-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D94F6625090E4800918465 /* Nasa_APOD_in_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nasa_APOD_in_SwiftUIApp.swift; sourceTree = "<group>"; };
 		E9D94F6825090E4800918465 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		E9D94F6D25090E4A00918465 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9D94F6F25090E4A00918465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9D94F7525090E5F00918465 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
-		E9D94F7725090E6B00918465 /* APODController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODController.swift; sourceTree = "<group>"; };
 		E9D94F7925090E7D00918465 /* APODView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODView.swift; sourceTree = "<group>"; };
 		E9D94F9425091B6200918465 /* ImageDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDescriptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,7 +59,6 @@
 		E9D94F5A25090E4800918465 = {
 			isa = PBXGroup;
 			children = (
-				E9D94F9425091B6200918465 /* ImageDescriptionView.swift */,
 				E9D94F6525090E4800918465 /* Nasa-APOD-in-SwiftUI */,
 				E9D94F6425090E4800918465 /* Products */,
 			);
@@ -76,10 +75,11 @@
 		E9D94F6525090E4800918465 /* Nasa-APOD-in-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				E9D94F9425091B6200918465 /* ImageDescriptionView.swift */,
 				E9D94F6625090E4800918465 /* Nasa_APOD_in_SwiftUIApp.swift */,
 				E9D94F6825090E4800918465 /* ContentView.swift */,
 				E9D94F7525090E5F00918465 /* DataModel.swift */,
-				E9D94F7725090E6B00918465 /* APODController.swift */,
+				E9D47B9F2509651800980D5F /* APODController.swift */,
 				E9D94F7925090E7D00918465 /* APODView.swift */,
 				E9D94F6A25090E4A00918465 /* Assets.xcassets */,
 				E9D94F6F25090E4A00918465 /* Info.plist */,
@@ -173,11 +173,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9D94F7A25090E7D00918465 /* APODView.swift in Sources */,
+				E9D47BA02509651800980D5F /* APODController.swift in Sources */,
 				E9D94F6925090E4800918465 /* ContentView.swift in Sources */,
 				E9D94F6725090E4800918465 /* Nasa_APOD_in_SwiftUIApp.swift in Sources */,
 				E9D94F9525091B6200918465 /* ImageDescriptionView.swift in Sources */,
 				E9D94F7625090E5F00918465 /* DataModel.swift in Sources */,
-				E9D94F7825090E6B00918465 /* APODController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
