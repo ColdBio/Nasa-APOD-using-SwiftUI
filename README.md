@@ -1,6 +1,4 @@
 # Nasa-APOD-in-SwiftUI
-🚀 This simple app shows NASA's astronomy picture of the day using SwiftUI 🛰
-
 <p align="center" width="100%"><img width="536" alt="nasalogo" src="https://user-images.githubusercontent.com/64978825/92616363-09c38680-f2b6-11ea-870f-9cdf4c86641a.jpg">
 
 # Demo
