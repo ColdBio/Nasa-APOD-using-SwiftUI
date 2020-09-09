@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,25 @@
 		E9D94F6925090E4800918465 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D94F6825090E4800918465 /* ContentView.swift */; };
 		E9D94F6B25090E4A00918465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D94F6A25090E4A00918465 /* Assets.xcassets */; };
 		E9D94F6E25090E4A00918465 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D94F6D25090E4A00918465 /* Preview Assets.xcassets */; };
+		E9D94F7625090E5F00918465 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D94F7525090E5F00918465 /* DataModel.swift */; };
+		E9D94F7825090E6B00918465 /* APODController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D94F7725090E6B00918465 /* APODController.swift */; };
+		E9D94F7A25090E7D00918465 /* APODView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D94F7925090E7D00918465 /* APODView.swift */; };
+		E9D94F932509136F00918465 /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E9D94F922509136F00918465 /* KingfisherSwiftUI */; };
+		E9D94F9525091B6200918465 /* ImageDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D94F9425091B6200918465 /* ImageDescriptionView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E9D94F8A250911BA00918465 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E9D94F6325090E4800918465 /* Nasa-APOD-in-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nasa-APOD-in-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +38,10 @@
 		E9D94F6A25090E4A00918465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9D94F6D25090E4A00918465 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9D94F6F25090E4A00918465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D94F7525090E5F00918465 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		E9D94F7725090E6B00918465 /* APODController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODController.swift; sourceTree = "<group>"; };
+		E9D94F7925090E7D00918465 /* APODView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODView.swift; sourceTree = "<group>"; };
+		E9D94F9425091B6200918465 /* ImageDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDescriptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D94F932509136F00918465 /* KingfisherSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +59,7 @@
 		E9D94F5A25090E4800918465 = {
 			isa = PBXGroup;
 			children = (
+				E9D94F9425091B6200918465 /* ImageDescriptionView.swift */,
 				E9D94F6525090E4800918465 /* Nasa-APOD-in-SwiftUI */,
 				E9D94F6425090E4800918465 /* Products */,
 			);
@@ -54,6 +78,9 @@
 			children = (
 				E9D94F6625090E4800918465 /* Nasa_APOD_in_SwiftUIApp.swift */,
 				E9D94F6825090E4800918465 /* ContentView.swift */,
+				E9D94F7525090E5F00918465 /* DataModel.swift */,
+				E9D94F7725090E6B00918465 /* APODController.swift */,
+				E9D94F7925090E7D00918465 /* APODView.swift */,
 				E9D94F6A25090E4A00918465 /* Assets.xcassets */,
 				E9D94F6F25090E4A00918465 /* Info.plist */,
 				E9D94F6C25090E4A00918465 /* Preview Content */,
@@ -79,12 +106,16 @@
 				E9D94F5F25090E4800918465 /* Sources */,
 				E9D94F6025090E4800918465 /* Frameworks */,
 				E9D94F6125090E4800918465 /* Resources */,
+				E9D94F8A250911BA00918465 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Nasa-APOD-in-SwiftUI";
+			packageProductDependencies = (
+				E9D94F922509136F00918465 /* KingfisherSwiftUI */,
+			);
 			productName = "Nasa-APOD-in-SwiftUI";
 			productReference = E9D94F6325090E4800918465 /* Nasa-APOD-in-SwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +143,9 @@
 				Base,
 			);
 			mainGroup = E9D94F5A25090E4800918465;
+			packageReferences = (
+				E9D94F912509136F00918465 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = E9D94F6425090E4800918465 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D94F7A25090E7D00918465 /* APODView.swift in Sources */,
 				E9D94F6925090E4800918465 /* ContentView.swift in Sources */,
 				E9D94F6725090E4800918465 /* Nasa_APOD_in_SwiftUIApp.swift in Sources */,
+				E9D94F9525091B6200918465 /* ImageDescriptionView.swift in Sources */,
+				E9D94F7625090E5F00918465 /* DataModel.swift in Sources */,
+				E9D94F7825090E6B00918465 /* APODController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +366,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E9D94F912509136F00918465 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E9D94F922509136F00918465 /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9D94F912509136F00918465 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E9D94F5B25090E4800918465 /* Project object */;
 }
