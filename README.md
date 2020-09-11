@@ -12,4 +12,4 @@
 
 ## Credit
 - Data courtesy of [NASA](https://api.nasa.gov) 🛰
-- Thanks to [Kingsfisher](https://github.com/onevcat/Kingfisher) for its powerful web image downloading and caching 🐟
+- Thanks to [Kingsfisher](https://github.com/onevcat/Kingfisher) for its powerful web image downloading and caching library 🐟
