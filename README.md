@@ -9,6 +9,7 @@
 
 ## Disclaimer
 - This project was built using Xcode 12 and the target iOS version was iOS 14. 
+- Beware that NASA's apod API might return a url that contains a video rather than an image, this app only accounts for images and not videos.
 
 ## Credit
 - Data courtesy of [NASA](https://api.nasa.gov) 🛰
