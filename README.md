@@ -10,7 +10,7 @@
 ## Disclaimer
 - This project was built using Xcode 12 and the target iOS version was iOS 14. 
 - Beware that NASA's apod API might return a url that contains a video rather than an image, this app only accounts for images and not videos.
-- I've tried to run this app on day 5 and for some reason the API returns properties that do not match my model, more specifically the copyright property was not present when calling the API. Beware of this. 
+- I've tried to run this app on day 5 and for some reason the API returns properties that do not match my model, more specifically the copyright property was not present when calling the API, because of this the astronomy picture of the day was not being displayed at all. Beware of this. 
 
 ## Credit
 - Data courtesy of [NASA](https://api.nasa.gov) 🛰
