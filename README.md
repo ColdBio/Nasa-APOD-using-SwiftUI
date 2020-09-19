@@ -8,7 +8,7 @@
 <img width="336" alt="sc1" src="https://user-images.githubusercontent.com/64978825/92644881-e9a6be00-f2db-11ea-8045-ccec3481ddd3.png"> <img width="336" alt="sc2" src="https://user-images.githubusercontent.com/64978825/92644896-ef040880-f2db-11ea-8ab7-16e71a4062eb.png">
 
 ## Disclaimer
-- This project was built using Xcode 12 and the target iOS version was iOS 14. 
+- This project was built using Xcode 12 and the target iOS version was iOS 14 and the emulator device was iPhone 11 Pro Max. 
 - Beware that NASA's apod API might return a url that contains a video rather than an image, this app only accounts for images and not videos.
 
 ## Credit
