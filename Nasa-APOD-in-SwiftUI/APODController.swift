@@ -13,7 +13,7 @@ class NasaAPI {
 
         URLSession.shared.dataTask(with: url!) { (data, _, _) in
             do {
-                let recievedData = try JSONDecoder().decode(DataModel.self, from: data!)
+                let receivedData = try JSONDecoder().decode(DataModel.self, from: data!)
                 
                 DispatchQueue.main.async {
                     completion(recievedData)
