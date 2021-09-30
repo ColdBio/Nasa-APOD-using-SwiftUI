@@ -16,7 +16,7 @@ class NasaAPI {
                 let receivedData = try JSONDecoder().decode(DataModel.self, from: data!)
                 
                 DispatchQueue.main.async {
-                    completion(recievedData)
+                    completion(receivedData)
                 }
                 
             } catch {
