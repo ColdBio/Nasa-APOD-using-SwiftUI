@@ -1,5 +1,4 @@
 ## Nasa astronomy picture of the day app written using SwiftUI
-<p align="center" width="100%"><img width="536" alt="nasalogo" src="https://user-images.githubusercontent.com/64978825/92616363-09c38680-f2b6-11ea-870f-9cdf4c86641a.jpg">
 
 ## Demo
 ![Demo1](https://user-images.githubusercontent.com/64978825/92613687-24483080-f2b3-11ea-8082-736c30b1ba64.gif)
